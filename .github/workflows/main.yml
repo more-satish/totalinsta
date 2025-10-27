@@ -39,5 +39,5 @@ jobs:
       # Step 5: Upload Python file to S3
       - name: Upload file to S3
         run: |
-          aws s3 cp main.py s3://your-s3-bucket-name/path/in/bucket/
+          aws s3 cp main.py s3://amzn-s3-instagram-script
       # amzn-s3-instagram-script
