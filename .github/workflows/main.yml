@@ -33,7 +33,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ap-south-1  # Change region as per your setup
+          aws-region: eu-noth-1  # Change region as per your setup
 
       # Step 5: Upload Python file to S3
       - name: Upload file to S3
