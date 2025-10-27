@@ -26,7 +26,7 @@ jobs:
       
       #run: |
        #   sudo apt-get update
-        #  sudo apt-get install -y awscli
+        #git   sudo apt-get install -y awscli
 
       # Step 4: Configure AWS credentials
       - name: Configure AWS Credentials
@@ -34,7 +34,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: eu-noth-1  # Change region as per your setup
+          aws-region: eu-north-1  # Change region as per your setup
 
       # Step 5: Upload Python file to S3
       - name: Upload file to S3
